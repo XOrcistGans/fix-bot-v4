@@ -40,15 +40,15 @@ let regs = /(aku cinta kamu)/i
 '🥰',
 '😍'
 ]
-let cintakamuh = cinmu[Math.floor(Math.random() * cinmu.length)]
-    if (isCintaKamu && !m.fromMe) {
+let anjing = anjing[Math.floor(Math.random() * cinmu.length)]
+    if (isanjing && !m.fromMe) {
     conn.sendMessage(m.chat, {
         react: {
-          text: `${cintakamuh}`,
+          text: `${anjing}`,
           key: m.key,
         }})
    setTimeout(() => {
-        conn.reply(m.chat, `Aku juga sayang kamu ${cintakamuh}`, m)
+        conn.reply(m.chat, `bacot lu kontol ${cintakamuh}`, m)
     }, 1000)
     }
     
