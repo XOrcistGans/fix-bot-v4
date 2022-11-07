@@ -11,10 +11,10 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 ------- ${nameown} -------
 
 📮 *Note:*
-• Owner tidak menerima save contact
-• Owner berhak blockir tanpa alasan
-• Berbicaralah yang sopan & tidak spam
-• Owner Hanya merespon yang berkaitan dengan BOT
+• Minimal sve wa owner lah pantek
+• Aahahaha jomblo ya lu:v
+• Berbicaralah yang sopan & tidak boleh toxic ya anjing
+• Minimal jangan culik mek
 • No Telp`
 
   let teks = 'Pilih dibawah kak ! o(〃＾▽＾〃)o'
