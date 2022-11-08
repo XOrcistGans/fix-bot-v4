@@ -6,12 +6,12 @@ m.reply(`
 │       *「 Kartu Intro 」*
 │ *Nama     :* 
 │ *Gender   :* 
-│ *Umur      :* 
+│ *Umur     :* 
 │ *Hobby    :* 
-│ *Kelas      :* 
-│ *Asal         :* 
+│ *Kelas    :* 
+│ *Asal     :* 
 │ *Agama    :* 
-|  *Status     :* 
+| *Status   :* 
 ╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙
 `.trim()) // Tambah sendiri kalo mau
 }
@@ -27,21 +27,21 @@ let krtu = `0ཻུ۪۪ꦽꦼ̷⸙‹•═════════════�
 │       *「 Kartu Intro 」*
 │ *Nama     :* 
 │ *Gender   :* 
-│ *Umur      :* 
+│ *Umur     :* 
 │ *Hobby    :* 
-│ *Kelas      :* 
-│ *Asal         :* 
+│ *Kelas    :* 
+│ *Asal     :* 
 │ *Agama    :* 
-|  *Status     :* 
+| *Status   :* 
 ╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙
 `
 let wibu = `https://api-reysekha.herokuapp.com/api/random/cosplay?apikey=apirey` 
 let thumb = await(await fetch(wibu)).buffer()
 conn.sendButtonDoc(m.chat, krtu, wm,'MENU','.menu', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/_ctzhid",
+    mediaUrl: "https://Instagram.com/kingdomidn_",
     mediaType: "VIDEO",
     description: "https://www.instagram.com/p/CevoCg5hG-p/?utm_source=ig_web_copy_link", 
-    title: 'WH-MODS-DEV-V1 MultiDevice',
+    title: '𝐗𝐎𝐫𝐜𝐢𝐬𝐭𝐆𝐚𝐧𝐬',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sgc
